@@ -1,3 +1,7 @@
+# Sources
+I learn to code react, i used [this](https://www.youtube.com/watch?v=AxfjMZbLifQ) tutorial  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
