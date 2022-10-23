@@ -18,3 +18,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 git-create-repo.ps1
+package copy.json
+package-lock copy.json
