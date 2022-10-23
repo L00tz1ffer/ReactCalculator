@@ -49,14 +49,14 @@ const App = () => {
                     <button className='keypad_button' name="." onClick={handleClick}>.</button>
                     <button className='keypad_button highlight' onClick={calculate} id="result">=</button>
                 </div>
-                <div className='credits'>
-                    <p className='credits'>Vielen Dank für das Tutorial </p>
-                    <a className='credits' href='https://www.youtube.com/channel/UC9S8RYfxS_YYD_eh57fswzQ'>@Digital Solutions Master</a>
-                    <p className='credits'>Das Tutorial hierzu findest du <a className='credits' href='https://www.youtube.com/watch?v=hpfDRnijdPE'>hier</a></p> 
-                </div>
+ 
             </div>
            
-            
+            <div className='credits'>
+                <p className='credits'>Vielen Dank für das Tutorial </p>
+                <a className='credits' href='https://www.youtube.com/channel/UC9S8RYfxS_YYD_eh57fswzQ'>@Digital Solutions Master</a>
+                <p className='credits'>Das Tutorial hierzu findest du <a className='credits' href='https://www.youtube.com/watch?v=hpfDRnijdPE'>hier</a></p> 
+            </div>
         </>
     )
 }

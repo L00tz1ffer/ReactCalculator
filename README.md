@@ -1,5 +1,5 @@
 # Sources
-I learn to code react, i used [this](https://www.youtube.com/watch?v=AxfjMZbLifQ) tutorial  
+I learn to code react, i used [this](https://www.youtube.com/watch?v=AxfjMZbLifQ) tutorial. Much love and Thanks to the [Digital Solutions Master](https://www.youtube.com/channel/UC9S8RYfxS_YYD_eh57fswzQ) Channel
 
 
 # Getting Started with Create React App

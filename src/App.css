@@ -86,11 +86,12 @@ button:active {
 }
 
 .credits {
-    text-align: center;
-    justify-content: center;
-    font-size: 12px;
+    text-align: right;
+    justify-content: right;
+    font-size: 10px;
     font-weight: 100;
+    color: rgb(88, 88, 88);
 }
 a:link {
-    color: #fff;
+    color: rgb(88, 88, 88);
 }
