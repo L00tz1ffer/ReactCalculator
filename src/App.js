@@ -6,7 +6,7 @@ const App = () => {
     return (
         <>
             <h1>{result}</h1>
-            /* https://youtu.be/hpfDRnijdPE?t=235 */
+            <a href='https://youtu.be/hpfDRnijdPE?t=235'>Letzter Stand des Videos</a> 
         </>
     )
 }
