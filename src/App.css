@@ -23,6 +23,9 @@ body{
     transform: translate(-50%, -50%);
     margin: 0 auto;
     width: 256px;
+    height: 512x;
+    min-width: 256px;
+    min-height: 512x;
     text-align: center;
     border:  10px solid #101116;
     background: #101116;
@@ -44,5 +47,8 @@ input[type="text"] {
     background-color: #101116;
     /*border:0px;*/
     color: rgb(218, 218, 218);
+    text-align: right;
+    font-size: 30px;
+    font-weight: 900;
 
 }
