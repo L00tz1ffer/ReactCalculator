@@ -17,10 +17,7 @@ body{
 }
 
 .container {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+
     margin: 0 auto;
     width: 256px;
     height: 512x;
@@ -85,5 +82,15 @@ button:active {
 }
 
 .highlight{
-    background: #293333;
+    background: #212525;
+}
+
+.credits {
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 100;
+}
+a:link {
+    color: #fff;
 }

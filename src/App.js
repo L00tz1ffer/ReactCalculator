@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './App.css';
 
 const App = () => {
-    const [result, setResult] = useState("test");
+    const [result, setResult] = useState("");
     const handleClick = (e) => {
         setResult(result.concat(e.target.name));
     }
@@ -26,7 +26,7 @@ const App = () => {
     return (
         <>
             <div className='container'>
-                <form>
+                <form className='display'>
                     <input type="text" value={result}></input>
                 </form>
                 <div className='keypad'>
@@ -49,9 +49,14 @@ const App = () => {
                     <button className='keypad_button' name="." onClick={handleClick}>.</button>
                     <button className='keypad_button highlight' onClick={calculate} id="result">=</button>
                 </div>
+                <div className='credits'>
+                    <p className='credits'>Vielen Dank für das Tutorial </p>
+                    <a className='credits' href='https://www.youtube.com/channel/UC9S8RYfxS_YYD_eh57fswzQ'>@Digital Solutions Master</a>
+                    <p className='credits'>Das Tutorial hierzu findest du <a className='credits' href='https://www.youtube.com/watch?v=hpfDRnijdPE'>hier</a></p> 
+                </div>
             </div>
-            <h1>{result}</h1>
-            <a href='https://youtu.be/hpfDRnijdPE?t=235'>Letzter Stand des Videos</a> 
+           
+            
         </>
     )
 }
