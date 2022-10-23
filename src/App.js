@@ -39,7 +39,7 @@ const App = () => {
                     <button className='keypad_button' name="+" onClick={handleClick}>+</button>
                     <button className='keypad_button' name="0" onClick={handleClick}>0</button>
                     <button className='keypad_button' name="." onClick={handleClick}>.</button>
-                    <button className='keypad_button' onClick={handleClick}>=</button>
+                    <button className='keypad_button' onClick={handleClick} id="result">=</button>
                 </div>
             </div>
             <h1>{result}</h1>
